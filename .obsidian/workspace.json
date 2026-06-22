@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPTS-Notes/github push.md",
+                "file": "CPTS-Notes/Cheatsheet/Nmap-Cheatsheet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "github push"
+              "title": "Nmap-Cheatsheet"
             }
           }
         ]
@@ -182,12 +182,22 @@
   },
   "active": "4063a16a7e154bc8",
   "lastOpenFiles": [
+    "coindcx_live.txt",
+    "coindcx_subs.txt",
+    "onevasco_live.txt",
+    "vfsevisa_live.txt",
+    "all_live_hosts.txt",
+    "onevasco_subs.txt",
+    "vfsevisa_subs.txt",
+    "vfs_live.txt",
+    "vfs_subs.txt",
+    "CPTS-Notes/01-Recon/Service Enumeration.md",
+    "CPTS-Notes/github push.md",
     "CPTS-Notes/Cheatsheet/Nmap-Cheatsheet.md",
     "CPTS-Notes/01-Recon/Saving Nmap Scan Results.md",
     "CPTS-Notes/01-Recon/Nmap-Host-Port-Scanning.md",
     "CPTS-Notes/Templates/Pentest-Template.md",
     "CPTS-Notes/01-Recon/Nmap-Host-Discovery.md",
-    "CPTS-Notes/github push.md",
     "CPTS-Notes/Welcome.md"
   ]
 }
