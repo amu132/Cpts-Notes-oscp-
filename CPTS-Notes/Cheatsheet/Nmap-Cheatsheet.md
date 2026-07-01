@@ -92,3 +92,24 @@ Common Enumeration Workflow
 | `nmap --min-rate 300` | 300 packets/sec |
 | `nmap --max-retries 0` | No retries — fast |
 | `nmap --max-rtt-timeout 100ms` | RTT limit |
+
+## Firewall and IDS/IPS Evasion
+| Command | Use |
+|---------|-----|
+| `nmap -sA <IP>` | ACK scan — firewall bypass |
+| `nmap -D RND:5 <IP>` | Decoy scan — 5 random IPs |
+| `nmap -S <spoofed_IP> -e tun0 <IP>` | Spoof source IP |
+| `nmap --source-port 53 <IP>` | DNS port se scan |
+| `ncat --source-port 53 <IP> <port>` | DNS port se connect |
+
+
+For dns :
+
+sudo nmap <IP> -sU -p 53 --script dns-nsid
+## Passive Recon - Domain Info
+| Command | Use |
+|---------|-----|
+| `curl -s "https://crt.sh/?q=<domain>&output=json" \| jq .` | SSL cert subdomains |
+| `dig any <domain>` | All DNS records |
+| `host <domain>` | IP resolve karo |
+| `shodan host <IP>` | IP info nikalo |
