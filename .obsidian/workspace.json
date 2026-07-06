@@ -182,6 +182,10 @@
   },
   "active": "4063a16a7e154bc8",
   "lastOpenFiles": [
+    "CPTS-Notes/Cheatsheet/MSSQL-Cheatsheet.md",
+    "CPTS-Notes/02-Enumeration/MSSQL.md",
+    "CPTS-Notes/02-Enumeration/MySQL.md",
+    "CPTS-Notes/Cheatsheet/MySQL-Cheatsheet.md",
     "CPTS-Notes/Cheatsheet/SNMP-Cheatsheet.md",
     "CPTS-Notes/02-Enumeration/SNMP.md",
     "CPTS-Notes/Cheatsheet/IMAP-POP3-Cheatsheet.md",
@@ -212,10 +216,6 @@
     "vfs_live.txt",
     "vfs_subs.txt",
     "CPTS-Notes/github push.md",
-    "CPTS-Notes/01-Recon/Saving Nmap Scan Results.md",
-    "CPTS-Notes/01-Recon/Nmap-Host-Port-Scanning.md",
-    "CPTS-Notes/Templates/Pentest-Template.md",
-    "CPTS-Notes/01-Recon/Nmap-Host-Discovery.md",
-    "CPTS-Notes/Welcome.md"
+    "CPTS-Notes/01-Recon/Saving Nmap Scan Results.md"
   ]
 }
